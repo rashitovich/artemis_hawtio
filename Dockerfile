@@ -20,7 +20,7 @@ EXPOSE 8161
 
 VOLUME ["/opt/broker/data"]
 
-WORKDIR /opt/broker/bin
+WORKDIR /opt/broker
 
-CMD ["artemis-service"]
+CMD ["/opt/broker/bin/artemis-service"]
 
