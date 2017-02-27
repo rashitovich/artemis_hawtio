@@ -14,9 +14,7 @@ rm apache-artemis-$ARTEMIS_VERSION-bin.tar.gz && \
 cd ./apache-artemis-$ARTEMIS_VERSION && \
 rm -rf examples
 
-EXPOSE 61616
-
-EXPOSE 8161
+EXPOSE 8161 61616
 
 VOLUME ["/opt/broker/data"]
 
