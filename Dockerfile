@@ -22,5 +22,5 @@ VOLUME ["/opt/broker/data"]
 
 WORKDIR /opt/broker/bin
 
-CMD ["artemis run"]
+CMD ["artemis-service"]
 
