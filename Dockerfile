@@ -16,7 +16,7 @@ rm -rf examples
 
 EXPOSE 8161 61616
 
-VOLUME ["/opt/broker/data"]
+VOLUME ["/opt/broker/data", "/opt/broker/log", "/opt/broker/tmp"]
 
 WORKDIR /opt/broker
 
