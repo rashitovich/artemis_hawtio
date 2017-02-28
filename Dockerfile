@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER Timur Akanaev <akanaevtr@mosreg.ru>
 
-RUN apk --no-cache add bash openjdk8-jre wget
+RUN apk --no-cache add bash openjdk8-jre wget vim
 
 ENV ARTEMIS_VERSION 1.5.3
 
