@@ -1,6 +1,6 @@
 FROM java:8
 
-MAINTAINER Timur Akanaev <akanaevtr@mosreg.ru>
+MAINTAINER Timur Akanaev <takanaev@gmail.com>
 
 RUN apt-get update && apt-get install -y vim maven tree
 
